@@ -1,5 +1,5 @@
 # Elevating Green Attic Through Enterprise Automation
-## An Architectural Solution Brief by Bryon V. Dela Paz
+## n8n Architecture Strategy by Bryon V. Dela Paz
 
 ---
 
@@ -8,7 +8,7 @@
 Instead of just reading the requirements for an Automation Engineer, I executed a deep-dive analysis into Green Attic.
 - **Brand Analysis:** Analyzed your customer journey, digital presence, and massive franchise competitors (like Koala Insulation).
 - **Operational Mapping:** Mapped the standard workflow of a high-volume insulation contractor against your job description. 
-- **The Finding:** I immediately identified the exact administrative friction points causing artificial speed limits in your business: **siloed CRM data, manual handoffs to ClickUp, and stagnant AI Search optimization.**
+- **The Finding:** I immediately identified the exact administrative friction points causing artificial speed limits in your business: **siloed CRM data, manual handoffs to ClickUp, and stagnant social/search optimization.**
 
 This is NOT a generic presentation. It is a custom, decoupled n8n architecture designed to solve your specific data silos.
 
@@ -17,7 +17,7 @@ This is NOT a generic presentation. It is a custom, decoupled n8n architecture d
 ## Slide 2: The 5 Bottlenecks of Scale
 1. **The ClickUp Disconnect**: Hand-typing job data from CRM to ClickUp tasks is slow and error-prone.
 2. **Invisible Internal Data**: Staff cannot easily query the status of complex jobs without digging through task histories.
-3. **Manual Social Media & SEO**: Formatting 5-star reviews and writing fresh local blogs takes hours.
+3. **The Content Bottleneck**: Getting "before and after" photos from the installer's phone to captioned and posted across 4 different platforms is a massive chore.
 4. **The "Project Gap"**: Multi-day projects cause homeowner anxiety when updates aren't proactive.
 5. **B2B Prospecting bottleneck**: Commercial warehouses need insulation, but there's no automated outbound engine.
 
@@ -50,10 +50,13 @@ This is NOT a generic presentation. It is a custom, decoupled n8n architecture d
 
 ---
 
-## Slide 6: Proposal 4 - Omnichannel Social Proof Engine
-**Goal**: Automate review generation and social media marketing.
-- **The Flow**:
-  - When a 5-Star review hits Google, n8n automatically triggers an Image API to generate a branded graphic and schedules it to Facebook and Instagram.
+## Slide 6: Proposal 4 - AI Content Pipeline & Social Proof
+**Goal**: Completely automate your Social Media from the Field-to-the-Feed.
+- **The Field-to-Feed Photo Agent**:
+  - Installers upload a raw photo to a designated tracking folder or Slack channel.
+  - An **AI Vision Model** immediately analyzes the photo, writes engaging captions tailored individually for FB, IG, and LinkedIn, and auto-schedules them using n8n.
+- **The Social Proof Generator**:
+  - When a 5-Star review hits Google, n8n automatically triggers an Image API to generate a branded graphic and schedules it for posting.
 
 ---
 

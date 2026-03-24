@@ -33,9 +33,9 @@ Green Attic Insulation is a premier energy contractor in Chicagoland facing the 
 - **The Symptom**: Commercial warehouse insulation is highly profitable, but the sales team lacks an automated outbound SDR infrastructure.
 - **The Workflow Solution**: Deploy a custom Python GUI Agent to scrape Chicagoland Property Managers on LinkedIn, routing the data through an n8n OpenAPI node for personalized cold-email sequencing.
 
-### Omnichannel Social Proof
-- **The Symptom**: Formatting 5-star Google reviews into graphics for Facebook/Instagram requires manual graphic design resources.
-- **The Workflow Solution**: An n8n review listener captures 5-star ratings, pipes the text through an Image Generation API (Bannerbear), and schedules the resulting media to all social networks natively.
+### The Omnichannel "Field-to-Feed" Content Pipeline
+- **The Symptom**: It is incredibly tedious to take a raw job photo from a technician, write multiple captions with local hashtags, and manually post them across Facebook, Instagram, TikTok, and LinkedIn. It creates a marketing roadblock.
+- **The Workflow Solution**: Deploy an AI Vision automation. Installers quickly drop images into a designated Slack channel. n8n catches the image, runs it through an OpenAI GPT-4 Vision node to automatically assess the job and write tailored captions for every platform, and instantly executes the multi-network posting schedule. Additionally, the same workflow can auto-generate branded social proof graphics from any new 5-Star review.
 
 ---
 
