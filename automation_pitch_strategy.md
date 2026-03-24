@@ -17,7 +17,7 @@ The Chicago insulation market is crowded. Key competitors include:
 
 ### How your automation gives Green Attic the edge
 Green Attic cannot outspend a giant franchise like Koala. But they can **out-automate them**. 
-By pitching your systems (like the ROI Rebate Calculator and Auto-Review sequences), Green Attic's sales process becomes faster and smarter than the big franchises. You aren't pitching "IT services"—you are pitching "the toolset to beat Koala."
+By pitching your systems (like the AI VA Lead Gen and Auto-Review sequences), Green Attic's sales process becomes faster and smarter than the big franchises. You aren't pitching "IT services"—you are pitching "the toolset to beat Koala."
 
 ---
 
@@ -38,7 +38,7 @@ By pitching your systems (like the ROI Rebate Calculator and Auto-Review sequenc
 
 ### What is their current situation?
 - **Facebook & Instagram**: They have a 5.0 rating on Facebook (100+ reviews). They post project photos ("before & after") and customer testimonials.
-- **YouTube & TikTok**: They have an excellent video presence explaining ice dams, frozen pipes, and rebates.
+- **YouTube & TikTok**: They have an excellent video presence explaining ice dams and frozen pipes.
 - **The Weakness**: Managing multiple platforms is exhausting. Every time they get a great review, someone has to manually design a graphic and post it to 4 different networks.
 
 ### The Automation Pitch (Your Portfolio)
@@ -55,15 +55,11 @@ By pitching your systems (like the ROI Rebate Calculator and Auto-Review sequenc
 
 Behind the scenes of every $1M+ home service business, operations are usually held together by duct tape and spreadsheets. Here are Green Attic's likely pain points and potential improvements:
 
-### Pain Point A: "The Rebate Friction" (Admin Bloat)
-Navigating multi-utility rebates (Ameren, ComEd, Nicor, and 2026 Federal IRA funds) is a nightmare for their back-office staff. Gathering paperwork and calculating eligibility eats up hours of manual entry.
-- **The Improvement**: Pitch an **Automated ROI Calculator & Rebate Concierge**. A simple web form (built in WordPress) sends data to n8n, which automatically calculates utility rebates based on zip code and emails a beautiful "2026 Rebate Estimate PDF" directly to the customer. It saves their admin team hundreds of hours.
-
-### Pain Point B: "The Project Gap" (Customer Anxiety)
+### Pain Point A: "The Project Gap" (Customer Anxiety)
 Insulation jobs often require multi-day phases (e.g., Day 1: Remove old insulation. Day 2: Install new cellulose). Customers sit in an empty, dirty attic overnight and get anxious because the company goes silent until the next morning.
 - **The Improvement**: Pitch **Proactive Phase-Transition SMS Updates**. When a technician finishes Phase 1, they click a button on their iPad in the CRM. This triggers n8n to instantly send a Twilio SMS to the homeowner: *"Hi! Phase 1 [Removal] is complete. We will be back tomorrow at 8 AM for Phase 2 [Sealing]. Have a great night!"* This guarantees 5-star reviews.
 
-### Pain Point C: "Invisible ROI"
+### Pain Point B: "Invisible ROI"
 Insulation is invisible. A customer pays $5,000 for something they literally never see. The only time they realize it worked is 30 days later when their energy bill arrives. 
 - **The Improvement**: Pitch the **30-Day Delight Sequence**. 30 days after job completion, n8n automatically queries the CRM and sends an email: *"Did you see your new energy bill? We hope you're enjoying the savings!"* If the sentiment is positive, it automatically routes them to leave a Google Review.
 

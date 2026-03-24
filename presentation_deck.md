@@ -6,32 +6,32 @@
 ## Slide 1: The Current Landscape (2026)
 ### Green Attic is a Market Leader, but the Game is Changing.
 - **The Strengths**: 4.8+ Stars, highly trusted "No Commission" sales teams, excellent workmanship.
-- **The Threats**: "Eco-friendly" is no longer a unique differentiator. Competitors (Koala, Titanium) are catching up on sustainability messaging.
-- **The Catalyst**: The 2026 Illinois Energy Rebates (Ameren, Nicor Gas, Federal IRA) are unlocking massive homeowner demand.
+- **The Threats**: "Eco-friendly" is no longer a unique differentiator. Massive franchises (Koala) are catching up on sustainability messaging with huge marketing budgets.
+- **The Goal**: Out-automate the competition and capture the highly profitable Commercial B2B market.
 
 ---
 
 ## Slide 2: The Core Challenge
-### "We install insulation. The government makes it complicated."
-1. **Administrative Bloat**: Processing complex, multi-utility rebates manually is slow and prone to error.
-2. **The "Invisible ROI"**: Customers hesitate because they can't easily calculate their upfront costs vs. long-term savings.
-3. **Communication Gaps**: Multi-day projects cause homeowner anxiety when updates aren't proactive.
+### "We install insulation. Scaling the business is complicated."
+1. **Manual Social Media & SEO**: Formatting 5-star reviews and posting them across Facebook, LinkedIn, and Instagram takes hours.
+2. **The "Project Gap"**: Multi-day projects cause homeowner anxiety when updates aren't proactive.
+3. **B2B Prospecting bottleneck**: Commercial warehouses need insulation, but your team has no automated way to generate B2B meetings.
 
 ---
 
 ## Slide 3: The Solution - A Workflow-Driven Approach
-### Evolving from Contractor to "Rebate Concierge"
-We can solve these bottlenecks without hiring more admin staff by implementing a **Decoupled Automation Architecture** using n8n.
+### Evolving into an Automation Powerhouse
+We can solve these bottlenecks without hiring more admin staff by implementing a **Decoupled Automation Architecture** using n8n and AI GUI Agents.
 
 ---
 
-## Slide 4: Proposal 1 - The Automated ROI Calculator
-**Goal**: Convert traffic into qualified leads instantly.
+## Slide 4: Proposal 1 - AI VA Commercial Lead Generation
+**Goal**: Unlock the commercial B2B market efficiently.
 - **The Flow**: 
-  - User enters Zip Code + Square Footage on the site.
-  - **n8n Brain** cross-references 2026 Ameren/ComEd/Nicor databases.
-  - Instantly generates and emails a custom PDF: *"Your 2026 Insulation ROI & Rebate Guide."*
-- **Result**: Immediate value delivery, highly qualified lead capture.
+  - A custom AI agent scrapes Chicagoland Property Managers on LinkedIn.
+  - Generates personalized emails offering a Commercial Energy Audit.
+  - Handles the follow-up sequence.
+- **Result**: Endless flow of qualified B2B commercial meetings without hiring an SDR.
 
 ---
 
@@ -45,19 +45,18 @@ We can solve these bottlenecks without hiring more admin staff by implementing a
 
 ---
 
-## Slide 6: Proposal 3 - The 30-Day Delight Sequence
-**Goal**: Maximize referrals and reviews.
+## Slide 6: Proposal 3 - The Omnichannel Social Proof Engine
+**Goal**: Automate review generation and social media marketing.
 - **The Flow**:
-  - 30 days post-install, when the first new utility bill arrives.
-  - **n8n Brain** sends an automated check-in email.
-  - Positive sentiment routes to a Google Review link and Referral Program.
+  - 30 days post-install, when the first new utility bill arrives, n8n sends an automated check-in email to ask for a review.
+  - When the 5-Star review hits Google, n8n automatically generates a branded image and schedules it to Facebook and Instagram.
 - **Result**: Automated word-of-mouth engine.
 
 ---
 
 ## Slide 7: Why This Works
 By treating the website purely as a UI and utilizing n8n for the heavy lifting (Data + Logic), Green Attic achieves:
-- **Infinite Scalability**: Handle 100 or 1,000 rebate inquiries without extra headcount.
+- **Infinite Scalability**: Handle 100 or 1,000 inquiries without extra headcount.
 - **Data Portability**: Un-tethers business logic from the WordPress CMS.
 - **Premium Experience**: Customers feel taken care of at every step.
 
