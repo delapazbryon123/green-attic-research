@@ -1,22 +1,25 @@
 # Elevating Green Attic Through Enterprise Automation
-## n8n Architecture Strategy by Bryon V. Dela Paz
+## An Architectural Solution Brief by Bryon V. Dela Paz
 
 ---
 
-## Slide 1: The Current Landscape (2026)
-### Green Attic is a Market Leader, but Scale is Causing Friction.
-- **The Strengths**: 4.8+ Stars, highly trusted "No Commission" sales teams, excellent workmanship.
-- **The Core Issue**: You are fighting Administrative Bloat. Disconnected project management tools and manual data entry are creating artificial speed limits on your growth.
-- **The Goal**: Out-automate the competition via an end-to-end n8n architecture linking Operations, Sales, and Marketing.
+## Slide 1: The Discovery Process
+### How I Identified These Scaling Gaps
+Instead of just reading the requirements for an Automation Engineer, I executed a deep-dive analysis into Green Attic.
+- **Brand Analysis:** Analyzed your customer journey, digital presence, and massive franchise competitors (like Koala Insulation).
+- **Operational Mapping:** Mapped the standard workflow of a high-volume insulation contractor against your job description. 
+- **The Finding:** I immediately identified the exact administrative friction points causing artificial speed limits in your business: **siloed CRM data, manual handoffs to ClickUp, and stagnant AI Search optimization.**
+
+This is NOT a generic presentation. It is a custom, decoupled n8n architecture designed to solve your specific data silos.
 
 ---
 
 ## Slide 2: The 5 Bottlenecks of Scale
 1. **The ClickUp Disconnect**: Hand-typing job data from CRM to ClickUp tasks is slow and error-prone.
-2. **Invisible Internal Data**: Staff cannot easily query the status of complex jobs without reading long operational task histories.
+2. **Invisible Internal Data**: Staff cannot easily query the status of complex jobs without digging through task histories.
 3. **Manual Social Media & SEO**: Formatting 5-star reviews and writing fresh local blogs takes hours.
 4. **The "Project Gap"**: Multi-day projects cause homeowner anxiety when updates aren't proactive.
-5. **B2B Prospecting bottleneck**: Commercial warehouses need insulation, but there's no automated way to generate B2B meetings.
+5. **B2B Prospecting bottleneck**: Commercial warehouses need insulation, but there's no automated outbound engine.
 
 ---
 
