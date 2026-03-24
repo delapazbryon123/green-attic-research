@@ -35,7 +35,7 @@ If you are unfamiliar with digital marketing and business operations for local h
 ### Pain Point D: The Field-to-Feed Content Bottleneck
 **The Problem**: Field installers take excellent job-site photos, but transferring those images to marketing, writing unique localized captions, and scheduling them across multiple networks is tedious and frequently neglected.
 - **The AI Solution**: Pitch the **AI Vision Content Pipeline**. 
-  - **How it Works**: An installer simply drops a photo from the job site into a designated ClickUp task or Slack channel. 
+  - **How it Works**: An installer simply drops a photo from the job site into a designated ClickUp task or simple Tally form. 
   - **The Workflow**: n8n intercepts the file and sends it to `GPT-4o Vision`. The AI "sees" the attic insulation job, writes three captivating variations (Casual for Facebook, Hashtag-heavy for Instagram, Professional for LinkedIn). It then automatically schedules them natively to all three platforms simultaneously.
   - **Video Syndication**: The workflow also monitors YouTube Shorts. When a Short is uploaded, n8n automatically syndicates it to Instagram Reels.
 
@@ -52,4 +52,4 @@ Your job as an **Enterprise n8n Architect** is to pitch them a fully integrated 
 - **Customer Success:** Phase changes trigger Twilio SMS.
 - **Marketing:** AI Vision models turn naked field photos into highly-captioned, multi-network social campaigns instantly.
 - **Sales:** Python interfaces run B2B lead generation.
-- **Tools used:** n8n, OpenAI, ClickUp API, Slack, Twilio, Docker.
+- **Tools used:** n8n, OpenAI, ClickUp API, Twilio, Docker.

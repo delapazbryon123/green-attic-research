@@ -52,7 +52,7 @@ Before writing a single workflow, we must identify exactly where time is being w
 ## Slide 6: Pillar 4 - AI Content Field-To-Feed Pipeline
 **The Goal**: Execute omnichannel marketing natively from the field.
 **The Solution**:
-  - Installers upload a raw photo to a designated tracking folder or Slack channel.
+  - Installers upload a raw photo to a designated ClickUp Task or Internal Form.
   - An **AI Vision Model** (GPT-4o) immediately analyzes the photo, writes engaging captions tailored individually for FB, IG, and LinkedIn, and auto-schedules them automatically using n8n.
 
 ---

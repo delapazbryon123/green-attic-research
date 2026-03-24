@@ -31,7 +31,7 @@ Green Attic Insulation is a premier energy contractor in Chicagoland. Like many 
 
 ## 5. Marketing: The Content Pipeline Bottleneck
 - **The Problem**: Field installers take excellent job-site photos, but transferring those images to marketing, writing unique localized captions, and scheduling them across multiple networks is tedious and frequently neglected.
-- **The Solution**: Deploy an AI Vision automation. Installers quickly drop images into a designated Slack channel. n8n catches the image, runs it through an OpenAI GPT-4 Vision node to automatically assess the job and write tailored captions for every platform, and instantly executes the multi-network posting schedule.
+- **The Solution**: Deploy an AI Vision automation. Installers quickly drop images into a designated ClickUp task or internal submission form. n8n catches the image, runs it through an OpenAI GPT-4 Vision node to automatically assess the job and write tailored captions for every platform, and instantly executes the multi-network posting schedule.
 
 ---
 

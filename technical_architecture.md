@@ -58,14 +58,14 @@ This document details the exact systems, APIs, and n8n nodes required to execute
 
 ### The Tech Stack
 * **Orchestration**: n8n
-* **Inbound Triggers**: Slack attachment webhooks, ClickUp item updates, Google My Business (GMB)
+* **Inbound Triggers**: ClickUp item updates, Internal Submission Forms, Google My Business (GMB)
 * **AI Vision Engine**: OpenAI (GPT-4o Vision API)
 * **Image Generation**: Bannerbear API
 * **Social APIs**: Facebook/Instagram Graph API, LinkedIn API, YouTube API
 
 ### The Workflow Architecture
 1. **The "Field-to-Feed" AI Vision Agent**:
-    - **Trigger**: An installer uploads a raw "Before and After" photo attachment to a designated Slack channel or ClickUp task.
+    - **Trigger**: An installer uploads a raw "Before and After" photo attachment to a designated ClickUp task or Internal Form.
     - **Extraction**: n8n downloads the binary file.
     - **Vision Processing**: The image file is passed to an `OpenAI` node (Vision capable). The prompt directs the AI to identify what type of insulation job it is, and write three distinct captions (Casual for FB, Hashtag-heavy for IG, Professional for LinkedIn).
     - **Distribution**: The image binary and the corresponding caption texts are routed directly to Facebook, Instagram, and LinkedIn posting nodes simultaneously.
@@ -76,6 +76,10 @@ This document details the exact systems, APIs, and n8n nodes required to execute
 3. **Video Syndication**:
     - **Trigger**: `YouTube RSS/API` detects a new Short uploaded by a marketing manager.
     - **Transformation**: n8n fetches the video file and uses the native `Instagram Graph API` to auto-publish the Reel, maximizing video reach with zero manual re-uploading.
+4. **Omnichannel Output**:
+    - **Extraction**: n8n extracts the localized captions and automatically schedules the postings.
+    - **Native APIs**: Meta Graph API (Facebook/Instagram), LinkedIn API.
+    - **Notification**: Optionally triggers a ClickUp notification to leadership that marketing assets have been deployed.
 
 ---
 
